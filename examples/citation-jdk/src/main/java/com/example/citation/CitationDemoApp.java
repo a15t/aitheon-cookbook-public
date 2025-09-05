@@ -6,7 +6,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 public class CitationDemoApp {
     public static void main(String[] args) {
         System.out.println("\n=============================");
-        System.out.println("   OpenAI Citation Demo");
+        System.out.println("   GIP Citation Demo");
         System.out.println("=============================");
         
         // Load environment variables

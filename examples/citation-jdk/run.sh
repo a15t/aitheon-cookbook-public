@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# OpenAI Citation Demo Runner Script
+# GIP Citation Demo Runner Script
 
 # Color codes for output
 RED='\033[0;31m'
@@ -10,7 +10,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 echo -e "${GREEN}========================================${NC}"
-echo -e "${GREEN}     OpenAI Citation Demo Runner${NC}"
+echo -e "${GREEN}     GIP Citation Demo Runner${NC}"
 echo -e "${GREEN}========================================${NC}"
 echo ""
 
@@ -54,7 +54,7 @@ if [ ! -z "$OPENAI_BASE_URL" ]; then
 fi
 
 # Build the project if needed
-if [ ! -f "target/openai-citation-demo-1.0-SNAPSHOT.jar" ]; then
+if [ ! -f "target/gip-citation-demo-1.0-SNAPSHOT.jar" ]; then
     echo -e "${YELLOW}Building project...${NC}"
     mvn clean package -DskipTests
     if [ $? -ne 0 ]; then
@@ -67,4 +67,4 @@ fi
 echo ""
 echo -e "${GREEN}Starting application...${NC}"
 echo ""
-java -jar target/openai-citation-demo-1.0-SNAPSHOT.jar
+java -jar target/gip-citation-demo-1.0-SNAPSHOT.jar
