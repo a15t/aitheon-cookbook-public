@@ -1,6 +1,10 @@
-# OpenAI Citation Demo - Perplexity Style Implementation
+# GIP Citation Demo - Perplexity Style Implementation
 
 A Java demonstration of implementing Perplexity-style citations with structured output using the OpenAI Java SDK.
+
+## Docs
+https://docs.platform.a15t.com/reference/06_citation_guide
+
 
 ## Quick Start
 
@@ -11,7 +15,7 @@ cp .env.example .env
 
 # Build and run
 mvn clean package
-java -jar target/openai-citation-demo-1.0-SNAPSHOT.jar
+java -jar target/gip-citation-demo-1.0-SNAPSHOT.jar
 ```
 
 ## Features
@@ -78,12 +82,7 @@ All tests should pass showing the models and JSON serialization work correctly.
 ## Run
 
 ```bash
-java -jar target/openai-citation-demo-1.0-SNAPSHOT.jar
-```
-
-### Option 3: Using JAR with API key argument
-```bash
-java -jar target/openai-citation-demo-1.0-SNAPSHOT.jar sk-your-api-key
+java -jar target/gip-citation-demo-1.0-SNAPSHOT.jar
 ```
 
 ## License
